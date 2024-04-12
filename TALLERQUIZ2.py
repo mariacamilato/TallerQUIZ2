@@ -84,7 +84,8 @@ def desviacion(arreglo,axis):
     return des
 
 #PUNTO 8
-a=  
+archivo= pd.read_csv("pacientesRayosX.csv")
+print(archivo.head(16))
 
 
 
