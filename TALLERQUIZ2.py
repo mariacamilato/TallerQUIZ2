@@ -48,10 +48,43 @@ def archiMatCsv():
             csv=pd.read_csv(y)
             return csv
         else:
-            print("OPCIÓN INCORRECTA, INGRESE M O C EN MAYUSCULA")
+            print("OPCIÓN INCORRECTA, INGRESE M O C EN MAYÚSCULA")
             continue 
 #Llamado de la función      
 b=archiMatCsv()
 print(b)
+
+#PUNTO 7:
+def suma(arreglo,axis):
+    sumado=np.sum(arreglo,axis=axis)
+    return sumado 
+
+def resta(arreglo,axis):
+    resta=np.subtract(arreglo,axis=axis)
+    return resta 
+
+def multi(arreglo,axis):
+    multi=np.multiply(arreglo,axis=axis)
+    return multi
+
+def division(arreglo,axis):
+    division=np.divide(arreglo,axis=axis)
+    return division 
+
+def log(arreglo,axis):
+    log=np.log(arreglo,axis=axis)
+    return log 
+
+def promedio(arreglo,axis):
+    prom=np.mean(arreglo,axis=axis)
+    return prom
+
+def desviacion(arreglo,axis):
+    des=np.std(arreglo,axis=axis)
+    return des
+
+
+
+
 
 
