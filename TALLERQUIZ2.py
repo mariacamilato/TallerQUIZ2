@@ -84,6 +84,7 @@ def desviacion(arreglo,axis):
     return des
 
 #PUNTO 8
+a=  
 
 
 
