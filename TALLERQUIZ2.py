@@ -83,6 +83,9 @@ def desviacion(arreglo,axis):
     des=np.std(arreglo,axis=axis)
     return des
 
+#PUNTO 8
+
+
 
 
 
